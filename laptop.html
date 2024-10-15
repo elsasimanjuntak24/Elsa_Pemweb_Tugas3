@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design - Laptop</title>
+    <style>
+        /* Laptop/Desktop Layout */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            background-color: #444;
+            padding: 15px;
+            color: white;
+            width: 200px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px 0;
+            display: block;
+        }
+
+        main {
+            margin-left: 220px;
+            display: flex;
+            padding: 20px;
+        }
+
+        .content {
+            background-color: #f4f4f4;
+            padding: 20px;
+            flex: 3;
+            margin-right: 20px;
+        }
+
+        .sidebar {
+            background-color: #ccc;
+            padding: 20px;
+            flex: 1;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Laptop Layout</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+        <section class="content">
+            <h2>Content Area</h2>
+            <p>This is a block element content area for laptop layout.</p>
+        </section>
+
+        <aside class="sidebar">
+            <h2>Sidebar</h2>
+            <p>This is the sidebar area for laptop layout.</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Laptop Layout</p>
+    </footer>
+
+</body>
+</html>
